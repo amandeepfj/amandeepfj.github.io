@@ -68,6 +68,9 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#videos_i_love_s">Videos Liked</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
         </li>
       </ul>
@@ -457,6 +460,41 @@
       </div>
     </section>
 
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="videos_i_love_s">
+      <div class="w-100 ">
+        <h2 class="mb-5">Videos I Like (Study)</h2>
+        <div class="container" onClick="window.open('https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN','_newtab');">
+          <img class="image img-fluid" src="img/machine-learning-stanford-andrew-ng-course.png">
+          <div class="middle">
+            <div class="text">Visit</div>
+          </div>
+        </div>
+        <div class="container" onClick="window.open('https://www.youtube.com/watch?v=CS4cs9xVecg&list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0','_newtab');">
+          <img class="image img-fluid" src="img/neural_networks_and_deep_learning.png">
+          <div class="middle">
+            <div class="text">Visit</div>
+          </div>
+        </div>
+        <div class="container" onClick="window.open('https://www.youtube.com/watch?v=1waHlpKiNyY&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc','_newtab');">
+          <img class="image img-fluid" src="img/Improving_deep_neural_networks_hyperparameter_tuning_regularization_and_optimization.png">
+          <div class="middle">
+            <div class="text">Visit</div>
+          </div>
+        </div>
+        <div class="container" onClick="window.open('https://www.youtube.com/watch?v=1waHlpKiNyY&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc','_newtab');">
+          <img class="image img-fluid" src="img/crash_course_statistics.jpg">
+          <div class="middle">
+            <div class="text">Visit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
       <div class="w-100">
         <h2 class="mb-5">Contact Me</h2>
@@ -521,6 +559,44 @@
   blockquote cite:before {
     content: "\2014 \2009";
   }
+
+  .container{
+    max-width:250px;
+    max-height:250px;
+    cursor: pointer;
+    display: inline-block;
+    
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
   </style>
 
 </body>
