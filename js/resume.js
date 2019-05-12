@@ -27,7 +27,9 @@
 
 })(jQuery); // End of use strict
 
-
+/**
+Function to open url in new tab
+**/
 function open_in_new_tab(url){
     window.open(url,'_newtab');
 }
