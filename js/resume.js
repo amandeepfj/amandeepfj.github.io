@@ -26,3 +26,8 @@
   });
 
 })(jQuery); // End of use strict
+
+
+function open_in_new_tab(url){
+    window.open(url,'_newtab');
+}
