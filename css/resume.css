@@ -191,13 +191,13 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-a:hover{
-    text-decoration:none;
-    }
+a:hover {
+  text-decoration:none;
+}
 
-  .auto_cursor{
-      cursor: default;
-  }
+.auto_cursor{
+    cursor: default;
+   }
 
   blockquote {
     font-family: Georgia, serif;
