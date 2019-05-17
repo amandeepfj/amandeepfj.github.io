@@ -195,21 +195,21 @@ a:hover {
   text-decoration:none;
 }
 
-.auto_cursor{
-    cursor: default;
-   }
+.auto_cursor {
+  cursor: default;
+}
 
-  blockquote {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
 
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
-  }
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
 
   blockquote:before {
     display: block;
