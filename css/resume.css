@@ -269,3 +269,15 @@ blockquote cite:before {
 	font-size: 16px;
 	padding: 16px 32px;
 }
+
+.nickname {
+    font-family:'sofia';
+    font-size:22px;
+    color:#000066
+}
+
+.quoteimage {
+    max-width:100px;
+    max-height:120px;
+    float:right
+}
