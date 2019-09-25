@@ -1,4 +1,4 @@
 # [Start Bootstrap - Resume - Amandeep Jiddewar]
 Personal webpage created using bootstrap template.
 
-This is my portfolio website. Visit https://amandeepfj.github.io/ to see how it looks.
+This is my portfolio website. Visit https://amandeepfj.github.io/.
