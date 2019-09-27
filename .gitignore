@@ -1,2 +1,4 @@
 node_modules
 ets.py
+*.xml
+.idea/amandeepfj.github.io.iml
